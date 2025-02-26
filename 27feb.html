@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css">
+    <style>
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8) !important;
+        }
+        .nav-link {
+            color: white !important;
+            font-family: Roboto, sans-serif;
+            margin-left: 45px; /* Reduce margin for closer spacing */
+        }
+        .nav-link:hover {
+            color: #f8c146 !important;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center; /* Align logo with text */
+            margin-right: 10px; /* Reduce space between logo and links */
+        }
+        .navbar-brand img {
+            height: 45px; /* Slightly smaller for better fit */
+        }
+
+
+
+
+        /* Footer*/
+        .bg-footer
+        {
+            background-color: black;
+            padding: 20px;
+        }
+        .footer-tittle
+        {
+            font-size: 20px;
+            color: yellow;
+        }
+        .footer-des
+        {
+            color: white;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo"> <!-- Replace with your logo URL -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="nav-link" id="navItem1" href="#">Home</a>
+            <a class="nav-link" id="navItem2" href="About-US.html">About Us</a>
+            <a class="nav-link" id="navItem3" href="#">Pricing</a>
+            <a class="nav-link" id="navItem4" href="#">Features</a>
+            <a class="nav-link" id="navItem4" href="#">Features</a>
+            <a class="nav-link" id="navItem5" href="#">Contact</a>
+          </div>
+        </div>
+    </nav>
+
+
+    <!-- Footer Section for Small devices .  -->
+    <footer class="bg-footer d-md-none text-center">
+        <div class="col-12 col-md-2">
+            <h1 class="footer-tittle">Contacts</h1>
+            <p class="footer-des">4768478493876</p>
+            <p class="footer-des">ewrheuihfu@gmail.com</p>
+        </div>
+        <div class="col-12 col-md-2">
+            <h1 class="footer-tittle">Address</h1>
+            <p class="footer-des">keriu iewhfoi ehiohf ieofioaf oaiefio</p>
+        </div>
+        <div class="col-12 col-md-2">
+            <h1 class="footer-tittle">Pages</h1>
+            <p class="footer-des">Home</p>
+            <p class="footer-des">Section</p>
+            <p class="footer-des">Contact</p>
+            <p class="footer-des">About</p>
+            <p class="footer-des">Featured</p>
+        </div>
+        <div class="col-12 col-md-2">
+            <h1 class="footer-tittle">Quick Links</h1>
+            <p class="footer-des">Home</p>
+            <p class="footer-des">Section</p>
+            <p class="footer-des">Contact</p>
+            <p class="footer-des">About</p>
+            <p class="footer-des">Featured</p>
+        </div>
+        <div class="map col-12 col-md-4 text-center">
+            <h1 class="footer-tittle">Map</h1>
+            <div class="map2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18940.383297279757!2d73.78261816579555!3d20.00749385237306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddea54b213a9d7%3A0xc2f9ac85ac767a9d!2sPanchavati%2C%20Nashik%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1740581842207!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section for Small Devices END. -->
+
+    <!-- Footer section for Medium Devicea.  -->
+    <footer class="bg-footer d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    <h1 class="footer-tittle">Contact</h1>
+                    <p class="footer-des">4768478493876</p>
+                    <p class="footer-des">ewrheuihfu@gmail.com</p>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h1 class="footer-tittle">Address</h1>
+                    <p class="footer-des">keriu iewhfoi ehiohf ieofioaf oaiefio</p>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h1 class="footer-tittle">Pages</h1>
+                    <p class="footer-des">Home</p>
+                    <p class="footer-des">Section</p>
+                    <p class="footer-des">Contact</p>
+                    <p class="footer-des">About</p>
+                    <p class="footer-des">Featured</p>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h1 class="footer-tittle">Quick Links</h1>
+                    <p class="footer-des">Home</p>
+                    <p class="footer-des">Section</p>
+                    <p class="footer-des">Contact</p>
+                    <p class="footer-des">About</p>
+                    <p class="footer-des">Featured</p>
+                </div>
+                <div class="map col-12 col-md-4 text-center">
+                    <h1 class="footer-tittle">Map</h1>
+                    <div class="map2">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18940.383297279757!2d73.78261816579555!3d20.00749385237306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddea54b213a9d7%3A0xc2f9ac85ac767a9d!2sPanchavati%2C%20Nashik%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1740581842207!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer Section Medium Device END. -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
